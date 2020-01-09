@@ -58,7 +58,7 @@ python -m mnist_project_embeddings \
 ### Visualize embeddings
 
 ```
-tensorboard --logdir /projections/20200109-171931/tensorboard/projector/ --port 6006
+tensorboard --logdir /projections/<timestamp>/tensorboard/projector/ --port 6006
 ```
 
 Enter `localhost:6006` at your browser
