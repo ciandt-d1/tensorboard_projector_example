@@ -50,7 +50,7 @@ python -m mnist_train \
 ```
 python -m mnist_project_embeddings \
     --output_dir /projections/<timestamp>/ \
-    --ckpt_path /projections/<timestamp>/model.ckpt \
+    --ckpt_path /projections/<timestamp>/model.hdf5 \
     --layer_name model_dense_1
 ```
 
